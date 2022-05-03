@@ -60,7 +60,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         print("<color=red>加入隨機房間失敗</color>");
 
         RoomOptions ro = new RoomOptions();
-        ro.MaxPlayers = 10;
+        ro.MaxPlayers = 20;
         PhotonNetwork.CreateRoom("",ro);
 
 
